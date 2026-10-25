@@ -6,14 +6,10 @@ If you want to report a bug open a [new issue](https://github.com/ChillyPigeon74
 ## How to Build
 
 **PREREQUISITES**
-- an IDE or any editor of your choice
-- `JDK 21.0.6` installed on your system  
-
-> Disclaimer: probably any Java 21 **JDK** would work, this is just what **ButtonClicker** is developed with.
+- an any editor of your choice
+- `JDK 25` installed on your system  
   
-Setup your project in any IDE. The code is provided as an IntelliJ IDEA project, but using another IDE should be straightforward.
-
-From there you can simply build using Maven, you can use the command `mvn package` to generate the jars necessary to run the application  
+Setup your project in any editor, from there you can simply build using Maven, you can use the command `mvn package` to generate the jars necessary to run the application  
 
 Look inside your project folder for a folder called `target` and you should find a folder in it called `mods` this contains all the exported jars including the app jar, we will use this as our module path  
 
